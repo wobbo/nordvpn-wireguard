@@ -85,7 +85,10 @@ Login afterwards:
 ```
 nordvpn login
 ```
-
+or
+```
+sudo nordvpn login
+```
 ## Step 2 — Enable NordLynx
 
 Ensure NordVPN is using the WireGuard-based NordLynx protocol:

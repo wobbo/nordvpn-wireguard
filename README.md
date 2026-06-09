@@ -70,25 +70,21 @@ Install the NordVPN client:
 
 ```
 sh <(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh)
-```
-
-Add your user to the NordVPN group:
-
-```
 sudo usermod -aG nordvpn $USER
 ```
 
-Reboot the system.
+Reboot the system:
+
+```
+sudo reboot
+```
 
 Login afterwards:
 
 ```
 nordvpn login
 ```
-or
-```
-sudo nordvpn login
-```
+
 ## Step 2 — Enable NordLynx
 
 Ensure NordVPN is using the WireGuard-based NordLynx protocol:

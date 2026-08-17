@@ -98,7 +98,7 @@ nordvpn set technology nordlynx
 Download the script:
 
 ```
-wget https://wobbo.org/install/2026-01-21/nordvpn-wireguard.sh
+wget https://wobbo.org/2026-01-21/nordvpn-wireguard.sh
 ```
 
 Make it executable:
